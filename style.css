@@ -1,0 +1,38 @@
+body{
+font-family: Arial;
+margin:0;
+background:white;
+color:#222;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+border-bottom:1px solid #ddd;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:black;
+}
+
+.main{
+max-width:800px;
+margin:60px auto;
+line-height:1.7;
+}
+
+h1{
+font-size:40px;
+}
+
+h2{
+margin-top:40px;
+}
